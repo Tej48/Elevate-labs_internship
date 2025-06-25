@@ -51,6 +51,54 @@ To discover open ports and active devices within the local network and analyze p
 This task provided practical exposure to active and passive network scanning techniques, and emphasized the importance of regularly auditing internal systems. Tools like Nmap and Wireshark prove essential for early detection of vulnerabilities in network services.
 
 ---
+# 🛡️ Cybersecurity Lab – Phishing Email Analysis (Task 2)
+
+This repository contains the analysis and report for **Task 2: Analyze a Phishing Email Sample** as part of the **Cybersecurity Internship** at **Elevate Labs**.
+
+## 📌 Objective
+
+To analyze a suspicious phishing email and identify key indicators of a phishing attack using various open-source tools.
+
+---
+
+## 🧪 Tools Used
+
+- [PhishTank](https://www.phishtank.com/)
+- [MXToolbox](https://mxtoolbox.com/)
+- [VirusTotal](https://www.virustotal.com/)
+- [WHOIS Lookup](https://whois.domaintools.com/)
+
+---
+
+## 🔍 Analysis Summary
+
+The phishing email analyzed was crafted to impersonate the **SMBC Bank** and used tactics such as:
+- **Spoofed email address** (`noreply@smbc-cardnb.club`)
+- **Suspicious link** redirecting to a phishing domain
+- **Urgent language** prompting the user to verify their account
+- **Mismatched URL** that does not belong to the legitimate SMBC domain
+
+---
+
+## 📥 Sample Email Content
+
+```text
+Subject: [Important] Your SMBC Card Account Needs Immediate Attention
+
+From: noreply@smbc-cardnb.club
+
+Dear Customer,
+
+We have detected suspicious activity in your account and have temporarily suspended access for your protection.
+
+👉 Verify My Account: https://smbc-cardnb.club
+
+Failure to act within 24 hours may result in permanent account suspension.
+
+Thank you for your cooperation,  
+SMBC Card Security Team
+
+---
 
 ## 📫 Contact
 
@@ -61,3 +109,4 @@ This task provided practical exposure to active and passive network scanning tec
 ---
 
 > 🚨 *Disclaimer*: All scans were performed in a controlled lab environment. Unauthorized scanning of networks without permission is illegal and unethical.
+> 
